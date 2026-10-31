@@ -26,7 +26,8 @@ has:
 | `zyxel,ex5601-t0-ubootmod` (OpenWrt's U-Boot) | `zyxel_ex5601-t0-ubootmod/` | `…-squashfs-sysupgrade.itb` |
 | `zyxel,ex5601-t0-stock` (Zyxel's bootloader) | `zyxel_ex5601-t0-stock/` | `…-squashfs-sysupgrade.bin` |
 
-Each version has a folder (`milkflint-0.33a/`) with one folder per layout.
+Each version has a folder (the newest is `milkflint-0.34a/`) with one folder
+per layout.
 OpenWrt refuses an image made for the other layout.
 
 ## Installing
@@ -70,13 +71,17 @@ went.
 
 ## Versions
 
-- **[0.33a](milkflint-0.33a/)**: the first EX5601 images. MilkFlint 0.32a
-  (OpenWrt 25.12.6) plus the Operating Mode page (router or access point)
-  and a software fast path for bridged connections, off by default.
+- **[0.34a](milkflint-0.34a/)**: the newest. 0.33a with the debug recorder
+  fixed: with the Logs page's debug counters on, it stopped at the first
+  kernel message and started again, over and over.
+- **[0.33a](milkflint-0.33a/)**: the first EX5601 images, replaced by 0.34a.
+  MilkFlint 0.32a (OpenWrt 25.12.6) plus the Operating Mode page (router or
+  access point) and a software fast path for bridged connections, off by
+  default.
 
 ## Source
 
 Built from MilkFlint's OpenWrt branch,
 [`milkflint-25.12`](https://github.com/OddBlueDog/openwrt/tree/milkflint-25.12),
-which has OpenWrt's source and MilkFlint's changes. The source of 0.33a goes
-there with MilkFlint's next release.
+which has OpenWrt's source and MilkFlint's changes. The source of 0.33a and
+0.34a goes there with MilkFlint's next release.

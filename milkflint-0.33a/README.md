@@ -1,5 +1,8 @@
 # MilkFlint 0.33a for the Zyxel EX5601-T0 / T-56
 
+Replaced by [0.34a](../milkflint-0.34a/), which fixes the debug recorder
+(the Logs page's debug counters): flash that one instead.
+
 > [!WARNING]
 > Untested and experimental: read the [main README](../README.md) first, and
 > only flash one of these if you have a way to recover the router.
