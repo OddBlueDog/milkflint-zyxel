@@ -49,8 +49,10 @@ OpenWrt refuses an image made for the other layout.
    set one under System → Admin Password. Wi-Fi is off until you set it up
    on the Wi-Fi page, with your country.
 
-Never flash a preloader or bl31-uboot image unless OpenWrt's page tells you
-to: they replace the bootloader. None are here.
+This repo has only the sysupgrade images, no bootloader images, so nothing
+here replaces the router's bootloader. OpenWrt's downloads also have
+preloader and bl31-uboot images for the EX5601: never flash one of those
+unless OpenWrt's page tells you to, as they replace the bootloader.
 
 To go back, flash OpenWrt's sysupgrade image for your layout, again without
 keeping settings.
