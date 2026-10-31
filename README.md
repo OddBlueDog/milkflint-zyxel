@@ -12,8 +12,9 @@ EX5601-T1 and as Telenor's T-56), which has the same MediaTek MT7986.
 > alpha.
 >
 > **Only flash one if you have a way to recover the router** when it doesn't
-> boot (a serial console and OpenWrt's recovery steps for the EX5601) and
-> know how to use it. Try one router first, not all of them.
+> boot (a serial console and
+> [OpenWrt's recovery steps](https://openwrt.org/toh/zyxel/t-56#debricking))
+> and know how to use it. Try one router first, not all of them.
 
 ## Which image
 
@@ -33,8 +34,11 @@ OpenWrt refuses an image made for the other layout.
 ## Installing
 
 1. Install OpenWrt on the router first, following
-   [OpenWrt's EX5601-T0 page](https://openwrt.org/toh/zyxel/ex5601-t0), and
-   make sure you can recover it from there before going on.
+   [OpenWrt's device page](https://openwrt.org/toh/zyxel/t-56#installation)
+   (filed under the T-56, an ISP's EX5601-T1: the same router without the
+   SFP+ port) and the
+   [EX5601-T0 forum thread](https://forum.openwrt.org/t/adding-openwrt-support-for-zyxel-ex5601-t0/155914),
+   and make sure you can recover it from there before going on.
 2. Check the image against its `.sha256` file:
    `sha256sum -c milkflint-…-sysupgrade.bin.sha256`.
 3. Flash the image for its layout **without keeping settings**: in LuCI,
