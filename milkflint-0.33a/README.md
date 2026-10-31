@@ -3,9 +3,10 @@
 Replaced by [0.34a](../milkflint-0.34a/), which fixes the debug recorder
 (the Logs page's debug counters): flash that one instead.
 
-> [!WARNING]
-> Untested and experimental: read the [main README](../README.md) first, and
-> only flash one of these if you have a way to recover the router.
+> [!CAUTION]
+> Untested and experimental: flashing one of these could brick your router.
+> Read the [main README](../README.md) first, and only flash one if you have
+> a way to recover the router.
 
 MilkFlint 0.32a (OpenWrt 25.12.6) plus the Operating Mode page (router or
 access point) and a software fast path for bridged connections, off by

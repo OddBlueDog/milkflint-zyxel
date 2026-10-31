@@ -1,8 +1,9 @@
 # MilkFlint 0.34a for the Zyxel EX5601-T0 / T-56
 
-> [!WARNING]
-> Untested and experimental: read the [main README](../README.md) first, and
-> only flash one of these if you have a way to recover the router.
+> [!CAUTION]
+> Untested and experimental: flashing one of these could brick your router.
+> Read the [main README](../README.md) first, and only flash one if you have
+> a way to recover the router.
 
 0.33a with the debug recorder fixed: with the Logs page's debug counters
 on, it stopped at the first kernel message and started again, over and

@@ -5,6 +5,14 @@ OpenWrt 25.12, made for the GL.iNet GL-MT6000 (Flint 2), with its own web
 interface. These are builds of it for the Zyxel EX5601-T0 (also sold as the
 EX5601-T1 and as Telenor's T-56), which has the same MediaTek MT7986.
 
+> [!CAUTION]
+> **Flashing these images could brick your router.** They have never been
+> run on an EX5601, so nobody knows yet whether they boot. If one doesn't,
+> or boots without working network ports, the router stops answering, and
+> only a serial cable and OpenWrt's recovery steps can bring it back, if
+> anything can. You flash them at your own risk: there's no warranty and no
+> promise that a bricked router can be recovered.
+
 > [!WARNING]
 > **Untested and experimental.** These images are built from the same tree
 > as the GL-MT6000's, but they haven't been run on an EX5601 yet. They may
