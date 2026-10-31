@@ -83,5 +83,12 @@ went.
 
 Built from MilkFlint's OpenWrt branch,
 [`milkflint-25.12`](https://github.com/OddBlueDog/openwrt/tree/milkflint-25.12),
-which has OpenWrt's source and MilkFlint's changes. The source of 0.33a and
-0.34a goes there with MilkFlint's next release.
+which has OpenWrt's source and MilkFlint's changes; building it is in its
+README.
+
+- **0.34a**: commit
+  [`0f0528ebfa`](https://github.com/OddBlueDog/openwrt/commit/0f0528ebfa987b0eb3dbeacf4bd87f02ef330629).
+- **0.33a**: the same commit without the debug recorder's fix (in
+  `package/milkflint/milkflint-ui/files/features/logs/bin/logs-keeper`) and
+  with its own version number; the kernel, OpenWrt and everything else in
+  it are the same.
